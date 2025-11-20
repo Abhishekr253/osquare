@@ -4,7 +4,7 @@ import showerGel from '../assets/images/showergel.jpg';
 import toothpaste from '../assets/images/tooth&brush.jpg';
 import toiletCover from '../assets/images/toiletSeatCover.jpg';
 import showerCap from '../assets/images/showerCap.jpg';
-import wetWipes from '../assets/images/wetWipess.jpg';
+import wetWipes from '../assets/images/wetwipess.jpg';
 import handWash from '../assets/images/had-wash.jpg';
 
 
