@@ -1,7 +1,7 @@
 import { Package, Instagram, MapPin, Mail, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/logo-photoroom.png";
+import logo from "../assets/logo-Photoroom.png";
 
 export default function Footer() {
   const navigate = useNavigate();

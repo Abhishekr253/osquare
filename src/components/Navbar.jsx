@@ -2,7 +2,7 @@ import { Menu, X, Package, Download } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import brochure from "../assets/brochure.pdf";
-import logo from "../assets/logo-photoroom.png";
+import logo from "../assets/logo-Photoroom.png";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar({ onNavigate }) {
