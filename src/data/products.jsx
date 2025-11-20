@@ -1,10 +1,10 @@
 import comb from '../assets/images/combb.jpg';
 import o2 from '../assets/images/o2.png';
 import showerGel from '../assets/images/showergel.jpg';
-import toothpaste from '../assets/images/t&b.jpg';
+import toothpaste from '../assets/images/tooth&brush.jpg';
 import toiletCover from '../assets/images/toiletSeatCover.jpg';
 import showerCap from '../assets/images/showerCap.jpg';
-import wetWipes from '../assets/images/wetWipes.jpg';
+import wetWipes from '../assets/images/wetWipess.jpg';
 import handWash from '../assets/images/had-wash.jpg';
 
 
