@@ -31,7 +31,7 @@ export const products = [
     description: 'Gentle cleansing wipes for instant freshness anytime, anywhere',
     image: wetWipes,             
     details:
-      'Our wet wipes are made from soft, biodegradable material infused with aloe vera and vitamin E. Alcohol-free and hypoallergenic, these wipes are perfect for quick cleanups, travel, or refreshing throughout the day. Each pack contains 20 individually sealed wipes.'
+      'Our wet wipes are made from soft, biodegradable material infused with aloe vera and vitamin E. Alcohol-free and hypoallergenic, these wipes are perfect for quick cleanups, travel, or refreshing throughout the day.'
   },
   {
     id: 'hand-wash',

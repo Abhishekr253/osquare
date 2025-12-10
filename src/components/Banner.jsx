@@ -4,7 +4,7 @@ import { Sparkles } from 'lucide-react';
 
 export default function Banner({ title, subtitle, description }) {
   subtitle = subtitle || "Your Premium Personal Care Kit";
-  description = description || "Experience luxury and convenience with our curated hygiene essentials.";
+  description = description || "Everyday elegance in every essential.";
 
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden w-full">
@@ -36,7 +36,7 @@ export default function Banner({ title, subtitle, description }) {
         <p className="text-lg md:text-xl text-white/90">{subtitle}</p>
 
         {description && (
-          <p className="mt-2 text-white/80 px-2">{description}</p>
+          <p className="mt-2 text-white/80 text-xl px-2 ">{description}</p>
         )}
       </div>
     </div>
