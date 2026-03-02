@@ -1,8 +1,9 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppButton() {
-  const whatsappNumber = "917356140302";   // MUST be in full international format
-  const message = "Hello! I am interested in the O² personal care kit."; // No HTML tags!
+  const whatsappNumber = "917356140302";
+  const message =
+    "Hello! I would like to place my order for the O² personal care kit.";
 
   const handleClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
@@ -10,25 +11,26 @@ export default function WhatsAppButton() {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 z-40 group"
-      aria-label="Chat on WhatsApp"
-    >
-      <FaWhatsapp className="h-6 w-6" />
-
-      {/* Text Label */}
+    <div className="fixed bottom-6 right-6 z-40 flex items-center">
+      
+      {/* Always Bouncing Label */}
       <span
         className="
-          absolute right-full mr-3 top-1/2 -translate-y-1/2 
-          bg-gray-900 text-white text-sm px-3 py-1 rounded-lg 
-          opacity-0 translate-x-2 group-hover:opacity-100 
-          group-hover:translate-x-0 transition-all duration-300
-          whitespace-nowrap shadow-lg
+          mr-3 bg-gray-900 text-white text-sm px-4 py-2 rounded-full shadow-lg
+          animate-bounce
         "
       >
-        Click here to chat with us!
+        🛒 Place Your Order Now!
       </span>
-    </button>
+
+      {/* WhatsApp Button */}
+      <button
+        onClick={handleClick}
+        className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
+        aria-label="Place Order on WhatsApp"
+      >
+        <FaWhatsapp className="h-6 w-6" />
+      </button>
+    </div>
   );
 }
